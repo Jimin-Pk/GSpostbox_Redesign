@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국내택배 예약</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/book_dom.css">
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, #rep>#rebox>#change>a>.rechp, input, #selbtn>a>#nextBtn, #send>#sendbox>#change>a>.sechp{font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body>
+    <header id="halfcost">
+        <div id="top">
+            <a href="./inputinfo_dom.html"><img class="left" src="mobileimg/backward.png"></a>
+            <h1>국내택배 예약</h1>
+        </div>
+    </header>
+
+    <section id="senre">
+        <div id="sr">
+            <h2>보내는 분과 받는 분<br>정보를 <span>정확하게</span> 입력해주세요</h2>
+        </div>
+    </section>
+
+    <section id="send">
+        <div id="sendbox">
+            <h3 class="se">보내는 분</h3>
+            <div id="change">
+                <a href="./preparingsystem.php">
+                    <p class="sechp">변경</p>
+                    <img class="right" src="mobileimg/right(white).png">
+                </a>
+            </div>
+            <div id="priv">
+                <p class="p1">발송자</p>
+                <p class="p2">박지민</p>
+                <p class="p3">전화번호</p>
+                <p class="p4">010-2028-4456</p>
+                <p class="p5">주소</p>
+                <p class="p6">[22698] 인천광역시 서구 승학로 506번길 65-5 (하늘미소빌 2차) 401호</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rep">
+        <div id="rebox">
+            <h3 class="re">받는 분</h3>
+            <div id="change">
+                <a href="./preparingsystem.php">
+                    <p class="rechp">내 주소록</p>
+                    <img class="right" src="mobileimg/right(white).png">
+                </a>
+            </div>
+            <div class="private">
+                <label for="name">이름</label>
+                <input type="text" name="name" class="formcontrol" required placeholder="이름">
+            </div>
+            <div class="private">
+                <label for="tel">전화번호</label>
+                <input type="tel" pattern="[0-9]{11}" title="'-'을 넣지 말고 11자리의 전화번호를 입력해주세요" class="formcontrol" required placeholder="전화번호">
+            </div>
+            <div class="private">
+                <label for="address">편의점</label>
+                <input type="text" name="address" class="formcontrol" required placeholder="기본주소(직접입력)">
+                <input type="text" name="address" class="formcontrol" required placeholder="상세주소(직접입력)">
+            </div>
+        </div>
+    </section>
+
+    <section id="payment">
+        <div id="pay">
+            <div id="pm">
+                <h4>지불 방법 선택</h4>
+            </div>
+            <div id="paysel">
+                <div class="first"><p class="f">선불</p></div>
+                <div class="last"><p class="l">착불</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="selbtn">
+        <a href="./bookingcomplete.html" id="link"><button type="submit" id="nextBtn" disabled>다음</button></a>
+    </div>
+
+    <script src="js/book_halfpost.js"></script>
+
+</body>
+</html>
+

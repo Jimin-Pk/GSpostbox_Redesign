@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS25 편의점 택배</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/slidead.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, .primeclub, .class, .cp, .cn, .bk, .bn, .dl, .dn, input.fill, #dlvbook>.title1, #qrcode>.title2, #cvs>.title3, #current>.all>.alladd, #cj>a>.cjapp, #pickup>a>.online, #footer>#fmenu>.cf>li>a, #navbar .navmenu .home a .h, #navbar .navmenu .my a .m, #navbar .navmenu .reservation a .r, #navbar .navmenu .list a .l, #navbar .navmenu .extra a .e,  #top>#topmenu>a>.logout{font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body>
+    <header id="top">
+            <div id="topmenu">  
+                <h1><a href="./main.html"><img src="mobileimg/GSpostbox logo.png" alt="logo"></a></h1>
+                <h2><a href="#"><img src="mobileimg/QR login.png" alt="qrcode-login"></a></h2>
+                <a href="./logout.php"><p class="logout">로그아웃</p></a>
+            </div>
+        </header>
+
+    <nav id="navbar">
+        <ul class="navmenu">
+                <li class="home">
+                    <a href="./main.html"><img src="mobileimg/home(be).png" alt="home">
+                    <p class="h">홈</p></a>
+                </li>
+                <li class="my">
+                    <a href="./mypage.html"><img src="mobileimg/MY(un).png" alt="mypage">
+                    <p class="m">MY</p></a>
+                </li>
+                <li class="reservation">
+                    <a href="./postselect.html"><img src="mobileimg/booking(un).png" alt="postbooking">
+                    <p class="r">택배예약</p></a>
+                </li>
+                <li class="list">
+                    <a href="./memberlist.html"><img src="mobileimg/recheck(un).png" alt="checkbooking">
+                    <p class="l">내역조회</p></a>
+                </li>
+                <li class="extra">
+                    <a href="./extra.html"><img src="mobileimg/extra(un).png" alt="more">
+                    <p class="e">더보기</p></a>
+                </li>
+        </ul>
+    </nav>    
+
+    <section id="person">
+        <div id="personal">
+            <p class="present">박지민님은<br><span>CLASSIC</span> 회원입니다</p> 
+            <a href="#"><p class="primeclub cf">프라임클럽</p></a>
+            <a id="grade" href="#">
+                <p class="class cf">등급별 혜택</p>
+                <img src="mobileimg/right(gray).png">
+            </a>
+
+            <a href="#">
+                <div class="coupon cf">
+                    <p class="cp cf">쿠폰</p>
+                    <p class="cn cf">2</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="book cf">
+                    <p class="bk cf">예약</p>
+                    <p class="bn cf">0</p>
+                </div>   
+            </a>       
+            <a href="#">
+                <div class="deli cf">
+                    <p class="dl cf">배송중</p>
+                    <p class="dn cf">0</p>
+                </div>
+            </a>
+         
+            <a id="more" href="./mypage.html">
+                <p class="more cf">더보기</p>
+                <img src="mobileimg/right(gray).png">
+            </a>
+        </div>
+    </section>
+    
+    <section id="numsearch">
+        <div id="search">
+            <p class="dlvsearch">배송조회</p>
+            <div class="putin">
+                <input type="text" class="fill" placeholder="운송장 번호를 입력해주세요."></p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="aboutbook">
+        <div id="booking">
+            <a href="./postselect.html">
+                <div id="dlvbook">
+                    <p class="title1">택배<br>예약하기</p>
+                    <img src="mobileimg/right(white).png">
+                    <p class="message">GS25 편의점에서<br>택배를 보내보세요.</p>
+                </div>
+             </a>
+            <a href="./qrcode.html">
+                <div id="qrcode">
+                    <p class="title2">QR코드<br>조회/재발급</p>
+                    <img src="mobileimg/reDP QR.png">
+                </div>
+            </a>
+            <a href="./findcvs.html">
+                <div id="cvs">
+                    <p class="title3">편의점<br>찾기</p>
+                    <img src="mobileimg/GS25 cvs logo.png"> 
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <section id="use">
+        <div id="current">
+            <h1>최근이용 내역</h1>
+            <p class="all"><a class="alladd" href="./memberlist.html">전체 보기</a></p>
+        </div>    
+        
+        <div id="booknumber">
+            <p class="number">예약번호<span> 1021-0498-845</span></p>
+            <p class="date">2024-09-26</p>
+            <p class="half">반값택배</p>
+            <p class="birth">생일선물</p>
+            <p class="complete">예약완료</p>
+            <p class="name">김태혁</p>
+            <p class="wait">접수대기중</p>
+        </div>
+    </section>
+    
+    <section id="ad">
+        <ul id="ad1">
+            <li><img src="mobileimg/GSadd1.png" alt="프라임클럽"></li>
+            <li><img src="mobileimg/november.png" alt="11월 출석 이벤트"></li>
+            <li><img src="mobileimg/aladin.png" alt="알라딘"></li>
+        </ul>
+        <ul id="ad2">
+            <li><img src="mobileimg/GSadd2.png" alt="회원전용 혜택"></li>
+            <li><img src="mobileimg/comeback.png" alt="컴백 프로모션"></li>
+            <li><img src="mobileimg/everyday.png" alt="매일매일 오네"></li>
+        </ul>
+    </section>
+
+    <section id="customercenter">
+        <h1>고객센터</h1>
+        <div id="cj">
+            <p class="cjcustom">국내택배<br>(CJ대한통운 O-NE)<br>고객센터</p>
+            <p class="problem">배송 및 사고 보상 문의</p>
+            <p class="time1">평일 09-18<br>(토)09-13시<br><span>(평일 점심시간:12-13시)</span></p>
+            <p class="cjtel">1577-1287</p>
+            <a href="./preparingsystem.php"><p class="cjapp">택배사 APP 문의</p></a>
+        </div>
+        <div id="pickup">
+            <p class="pickcustom">반값택배/픽업<br>고객센터</p>
+            <p class="halfpick">반값택배/픽업</p>
+            <p class="time2">평일 09-18<br>(토)09-13시<br><span>(평일 점심시간:12:30-13:30)</span></p>
+            <p class="picktel">1544-4101</p>
+            <a href="./online(7day).html"><p class="online">온라인 문의</p></a>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <nav id="fmenu">
+            <ul class="cf">
+                <li><a href="#">회사소개</a></li>
+                <li>|</li>
+                <li><a href="#">이용약관</a></li>
+                <li>|</li>
+                <li><a href="#" class="pr">개인정보처리방침</a></li>
+                <li>|</li>
+                <li><a href="#">제휴문의</a></li>
+                <li>|</li>
+                <li><a href="#">공지사항</a></li>
+            </ul>
+        </nav>
+        
+        <h2>(주)지에스네트웍스</h2>
+        
+        <div class="info">
+            <p class="captin">대표자명 | 전광호<br><br>주소 | 경기도 용인시 처인구 포곡읍 포곡로 100<br>통신판매번호 | 2021-용인처인-00461<br>FAX | 02-2006-3999<br><br>사업자등록번호 765-88-00857</p>
+            <p class="copy">Copyright GSNetworks ALLRIGHTS RESERVED.</p>
+            <ul class="sns">
+                <li><a href="#"><img src="mobileimg/instagram icon.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="mobileimg/facebook icon.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="mobileimg/kakaotalk icon.png" alt="kakaotalk"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

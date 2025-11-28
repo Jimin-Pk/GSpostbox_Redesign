@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반값택배 예약</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/postinfo.css">
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, #postselect>select>option, #selbtn>a>#nextBtn, #price>#inputprice>.pr, #rename>#naming>.pr {font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body>.
+    <header id="postinfo">
+        <div id="top">
+            <a href="./postselect.html"><img class="left" src="mobileimg/backward.png"></a>
+            <h1>반값택배 예약</h1>
+        </div>
+    </header>
+
+    <div id="in">
+        <div id="fo">
+            <h2>물품정보</h2>
+        </div>
+    </div>
+
+    <section id="select">
+        <div id="postselect">
+            <h3>품목을 선택해주세요.</h3>
+            <a href="./caution.html"><img class="info" src="mobileimg/information.png" alt="주의사항"></a> 
+                <select>
+                    <option selected>의류</option>
+                    <option>가전제품류</option>
+                    <option>곡물류</option>
+                    <option>잡화/서적</option>
+                </select>   
+        </div>
+    </section>
+    
+    <section id="price">
+        <div id="inputprice">
+            <h4>물품가액을 입력해주세요.</h4>
+            <input class="pr" type="text" placeholder="숫자만 입력">
+            <p class="unit">만원</p>
+            <ul class="prices">
+                <li class="p1">1만원</li>
+                <li class="p1">5만원</li>
+                <li class="p1">10만원</li>
+                <li class="p1">50만원</li>
+                <li class="np1">99만원</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="rename">
+        <div id="naming">
+            <h5>예약명을 입력해주세요.</h5>
+            <input class="pr" type="text" placeholder="예약명 입력란"> 
+        </div>
+    </section>
+
+    <section id="cautiontxt">
+        <div id="caution">
+            <p class="p2">&middot; 물품의 총 가액을 콤마(,) 없이 입력해주세요.</p>
+            <br>
+            <p class="p2">&middot; 반값택배 예약 시 물품 가액이 50만원을 초과할 경우 접수 불가합니다.</p>
+            <br>
+            <p class="p2">&middot; 물품가액은 배송 사고 시 보상의 기준이 되며, 허위 기재시<br>배송과정에서 불이익이 발생할 수 있으니 실제 물품의 가치를 정확히 기재해 주시기 바랍니다.</p>
+        </div>
+    </section>
+
+    <div id="selbtn">
+        <a href="./book_halfpost.html" id="link"><button type="submit" id="nextBtn" disabled>다음</button></a>
+    </div>
+
+    <script src="js/inputinfo.js"></script>
+</body>
+</html>
+

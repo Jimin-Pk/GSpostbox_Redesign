@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mypage.css">
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, #navbar .navmenu .home a .h, #navbar .navmenu .my a .m, #navbar .navmenu .reservation a .r, #navbar .navmenu .list a .l, #navbar .navmenu .extra a .e{font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body>
+    <header id="mypage">
+        <div id="top">
+            <h1>마이페이지</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <ul class="navmenu">
+                <li class="home">
+                    <a href="./main.html"><img src="mobileimg/home(un).png" alt="home">
+                    <p class="h">홈</p></a>
+                </li>
+                <li class="my">
+                    <a href="./mypage.html"><img src="mobileimg/MY(be).png" alt="mypage">
+                    <p class="m">MY</p></a>
+                </li>
+                <li class="reservation">
+                    <a href="./postselect.html"><img src="mobileimg/booking(un).png" alt="postbooking">
+                    <p class="r">택배예약</p></a>
+                </li>
+                <li class="list">
+                    <a href="./memberlist.html"><img src="mobileimg/recheck(un).png" alt="checkbooking">
+                    <p class="l">내역조회</p></a>
+                </li>
+                <li class="extra">
+                    <a href="./extra.html"><img src="mobileimg/extra(un).png" alt="more">
+                    <p class="e">더보기</p></a>
+                </li>
+        </ul>
+    </nav>   
+
+    <section id="myinfo">
+        <div id="mybox">
+            <p class="present">박지민님은<br><span class="classic">CLASSIC</span> 회원입니다</p>
+            <a href="#"><p class="primeclub">프라임클럽</p></a>
+            <p class="next">100건 더 이용하면 다음 달에는 <span class="best">BEST</span></p>
+            <a id="morebtn" href="#">
+                <p class="more cf">등급별 혜택</p>
+                <img src="mobileimg/right(gray).png">
+            </a>
+            <div id="boxwrap">
+                <a href="#">
+                    <div class="coupon cf">
+                        <p class="cp cf">쿠폰</p>
+                        <p class="cn cf">2</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="book cf">
+                        <p class="bk cf">예약</p>
+                        <p class="bn cf">0</p>
+                    </div>   
+                </a>
+                <a href="#">
+                    <div class="deli cf">
+                        <p class="dl cf">배송중</p>
+                         <p class="dn cf">0</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="mypagemenu">
+        <div id="menu">
+            <ul id="menulist">
+                <li class="list1">
+                    <p class="p1">내 주소록</p>
+                    <a href="#"><img class="listimg1" src="mobileimg/right(blue).png"></a>
+                </li>
+                <li class="list1">
+                    <p class="p2">회원정보 수정</p>
+                    <a href="#"><img class="listimg2" src="mobileimg/right(blue).png"></a>
+                </li>
+                <li class="list1">
+                    <p class="p3">이벤트 참여 내역</p>
+                    <a href="#"><img class="listimg3" src="mobileimg/right(blue).png"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="convertmember">
+        <div class="membership">
+        <h1>회원 전환</h1>
+        </div>
+        <ul id="convert">
+            <li class="member">
+                <p class="p4">사업자 회원 전환</p>
+                <a href="#"><img class="listimg4" src="mobileimg/right(orange).png"></a>
+            </li>
+            <li class="member">
+                <p class="p5">제휴 회원 전환</p>
+                <a href="#"><img class="listimg5" src="mobileimg/right(orange).png"></a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="add">
+        <div id="add1">
+            <img class="promotion" src="mobileimg/GSadd3.png">
+        </div>
+    </section>
+
+    <section id="logout">
+        <div id="logoutbtn">
+            <a href="./logout.php"><p>로그아웃</p></a>
+        </div>
+    </section>
+
+</body>
+</html>
+

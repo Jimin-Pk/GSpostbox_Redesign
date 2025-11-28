@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내역조회</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/listview.css">
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, #total>#halfnumber>select>option, #navbar .navmenu .home a .h, #navbar .navmenu .my a .m, #navbar .navmenu .reservation a .r, #navbar .navmenu .list a .l, #navbar .navmenu .extra a .e, input {font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body>
+    <header id="booking">
+        <div id="top">
+            <h1>내역 조회</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <ul class="navmenu">
+                <li class="home">
+                    <a href="./main.html"><img src="mobileimg/home(un).png" alt="home">
+                    <p class="h">홈</p></a>
+                </li>
+                <li class="my">
+                    <a href="./mypage.html"><img src="mobileimg/MY(un).png" alt="mypage">
+                    <p class="m">MY</p></a>
+                </li>
+                <li class="reservation">
+                    <a href="./postselect.html"><img src="mobileimg/booking(un).png" alt="postbooking"> 
+                    <p class="r">택배예약</p></a>
+                </li>
+                <li class="list">
+                    <a href="./memberlist.html"><img src="mobileimg/recheck(be).png" alt="checkbooking">
+                    <p class="l">내역조회</p></a>
+                </li>
+                <li class="extra">
+                    <a href="./extra.html"><img src="mobileimg/extra(un).png" alt="more">
+                    <p class="e">더보기</p></a>
+                </li>
+        </ul>
+    </nav>    
+
+    <section id="member">
+        <div id="select">
+            <p class="membersel">회원</p>
+            <p><a class="nonmember" href="./preparingsystem.php">비회원</a></p>
+        </div>
+    </section>
+
+    <section id="number">
+        <div id="numsearch">
+            <input type="text" class="order" placeholder="주문번호 혹은 운송장 번호를 입력해주세요.">
+            <a href="#"><img class="numimg" src="mobileimg/search(blue).png"></a>
+        </div>
+    </section>
+
+    <section id="total">
+        <div id="halfnumber">
+            <h1 class="sum">총 1건</h1>
+            <select>
+                <option selected>반값택배</option>
+                <option>국내택배</option>
+                <option>국제택배</option>
+            </select>
+        </div>
+    </section>
+
+    <section id="listbox">
+        <div id="booknumber">
+            <p class="number">예약번호<span> 1021-0498-845</span></p>
+            <p class="date">2024-09-26</p>
+            <p class="half">반값택배</p>
+            <p class="birth">생일선물</p>
+            <p class="complete">예약완료</p>
+            <p class="name">김태혁</p>
+            <p class="wait">접수대기중</p>
+        </div>
+    </section>
+</body>
+</html>
+

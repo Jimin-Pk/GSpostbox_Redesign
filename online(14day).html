@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 1:1 문의</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/online14.css">
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, #btn>a>.csbtn{font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body>
+    <header id="online">
+        <div id="top">
+            <a href="./cs.html"><img class="left" src="mobileimg/backward.png"></a>
+            <h1>온라인 1:1 문의</h1>
+        </div>
+    </header>
+    
+    <section id="due">
+        <div id="duration">
+            <ul id="weeks">
+                <a href="./online(7day).html"><li class="seven">7일간</li></a>
+                <li class="fourteen">14일간</li>
+            </ul>
+            <div id="cal">
+                <input class="dt" id="date" max="2025-11-05" min="2023-11-05" value="2024-09-26" type='date' onchange={dataChange} />
+            </div>
+        </div>
+    </section>
+
+    <section id="title">
+        <div id="search">
+            <input type="text" class="searchtitle" required placeholder="제목으로 검색">
+        </div>
+        <img class="caution" src="mobileimg/caution(orange).png" alt="caution">
+        <h2><span>24.09.19 ~ 24.10.03</span><br>기간 중 문의 내역이 없습니다.</h2>
+    </section>
+
+    <section id="hline">
+        <div class="line"></div>
+    </section>  
+
+    <section id="otherq">
+        <div id="wrap">
+            <div id="oneq">
+                <p class="oq">
+                    <span class="orange">국내택배(CJ대한통운 오네) 배송 문의를 원하시나요?</span><br><br><span class="orange">편의점 수거 후 배송 및 사고보상 관련 문의</span>는<br>CJ대한통운 오네(O-NE) 고객센터 1577-1287 또는 1:1 문의를 <br>이용해주세요.<br><br>수거 이후 CJ대한통운 오네(O-NE)에서 확인 가능합니다.<br><br></a><span class="blue"><a href="#">오네(O-NE) 1:1 문의 바로가기</a></span>
+                </p>
+            </div>
+
+            <div id="qrq">
+                <p class="qq">
+                    <span class="orange">반값택배 QR코드를 받지 못하셨나요?</span><br><br>도착점포 근무자고 입고 스캔 시 자동으로 QR코드가 발송되고<br>있으나 야간 22-06시에는 수면권 보장을 위해 자동으로 발송되지 <br>않습니다.<br><br><span class="orange">수동으로 직접 발송이 가능합니다.</span><br><br><span class="blue"><a href="#">바로가기</a></span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div id="btn">
+        <a href="#"><button type="submit" class="csbtn">문의하러 가기</button></a>
+    </div>
+</body>
+</html>
+

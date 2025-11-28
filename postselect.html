@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>택배 예약하기</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" type="text/css" href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css">
+    <style>
+        body, #top>h1, .selbox>.sel>.gsdel, .selbox>.sel>.ex, .bookbox>.sel>.gsdel1, .bookbox>.sel>.ex1, .bookbox2>.sel>.gsdel2, .bookbox2>.sel>.ex2, #selbtn #nextBtn, #navbar .navmenu .home a .h, #navbar .navmenu .my a .m, #navbar .navmenu .reservation a .r, #navbar .navmenu .list a .l, #navbar .navmenu .extra a .e{font-family: 'NanumSquareNeo', sans-serif;}
+    </style>
+</head>
+<body> 
+    <header id="booking">
+        <div id="top">
+            <h1>택배 예약하기</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <ul class="navmenu">
+                <li class="home">
+                    <a href="./main.html"><img src="mobileimg/home(un).png" alt="home">
+                    <p class="h">홈</p></a>
+                </li>
+                <li class="my">
+                    <a href="./mypage.html"><img src="mobileimg/MY(un).png" alt="mypage">
+                    <p class="m">MY</p></a>
+                </li>
+                <li class="reservation">
+                    <a href="./postselect.html"><img src="mobileimg/booking(be).png" alt="postbooking">
+                    <p class="r">택배예약</p></a>
+                </li>
+                <li class="list">
+                    <a href="./memberlist.html"><img src="mobileimg/recheck(un).png" alt="checkbooking">
+                    <p class="l">내역조회</p></a>
+                </li>
+                <li class="extra">
+                    <a href="./extra.html"><img src="mobileimg/extra(un).png" alt="more">
+                    <p class="e">더보기</p></a>
+                </li>
+        </ul>
+    </nav>    
+
+    <section id="select">
+        <ul id="selectlist">
+            <li class="selbox" onclick="click()">
+                <a class="sel" href="#">
+                    <img class="slimg" src="mobileimg/nonGShalf.png">
+                    <p class="gsdel">GS반값택배</p><br>
+                    <p class="ex">더 저렴한 가격으로 GS25에서 GS25로</p>
+            </a>
+            </li>
+            <li class="bookbox" onclick="click()">
+                <a class="sel" href="#">
+                    <img class="slimg1" src="mobileimg/nondom.png">
+                    <p class="gsdel1">국내택배</p><br>
+                    <p class="ex1">GS25 편의점 택배 앱으로 보내는 국내택배</p></a>
+            </li>
+            <li class="bookbox2" onclick="click()">
+                <a class="sel" href="#"><img class="slimg2" src="mobileimg/noninter.png">
+                <p class="gsdel2">국제택배</p><br><p class="ex2">GS25 편의점 택배 앱으로 보내는 국제택배</p></a>
+            </li>
+        </ul>
+    </section>
+
+    <div id="selbtn">
+        <!--<a href="./inputinfo.html" id="link">--><button type="submit"  id="nextBtn" disabled>선택</button></a>
+    </div>
+
+    <script src="js/postselect.js"></script>
+</body>
+</html>
+
