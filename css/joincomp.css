@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+body::-webkit-scrollbar {display:none;}
+/*body {background: #c4c4c4;}*/
+a {text-decoration:none;}
+
+#complete {position:fixed; width:100%; height:114px; top:0; z-index: 9999; background: #fff; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:65px; height:22px; margin: 0 auto; padding-top:27px;}
+
+#congmsg {width:393px; margin:114px auto 0; text-align: center;}
+#congmsg img {width:121px; height:121px; margin-top:150px; margin-bottom:40px;}
+
+#msg {width:343px; margin:0 auto 180px;}
+#msg h2 {font-size: 21px; line-height:26px; font-weight: 700; color:#007def; margin-bottom: 20px;} 
+#msg .glad {font-size:15px; line-height:20px; font-weight:500; letter-spacing:0.3px;}
+span.wc {color:#007def; font-weight:600;}
+span.mp {color:#00d4ea; font-weight:600;}
+
+#gotologin {width:393px; text-align: center; margin:0 auto;}
+.btn {width:343px; height:47px; border:none; border-radius: 12px; background:#007def; color:#fff; font-size:13px; font-weight:47px; font-weight:600; margin:15px auto 30px; cursor: pointer;}

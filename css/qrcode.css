@@ -1,0 +1,38 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+
+* {box-sizing:border-box;}
+/*body {background: #c4c4c4;}*/
+body::-webkit-scrollbar {display:none;}
+a {text-decoration:none;}
+
+#qrcode {position:fixed; width:100%; height:114px; top:0; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); background:#fff; z-index: 9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:153px; height:22px; margin: 0 auto;}
+#top img {width:22px; height:22px;}
+#top .left {position:relative; left:25px; top:26px;}
+
+#explain {width:393px; height: 40px; margin: 144px auto 30px;}
+h2 {font-size:15px; line-height: 20px; font-weight:600; text-align:center;}
+
+#sendnreceive {width:393px; height: 544px; margin:0 auto 40px;}
+#sendp {position: relative; width:343px; height: 262px; margin:0 auto 20px; background:#d9d9d9; border-radius:12px; cursor: pointer;}
+#sendp .send {width:90px; height:90px; position:absolute; top:20px; left:127px;} 
+#sendp .sd {color:#000; font-size:17px; line-height:22px; width:70px; height:22px; position:absolute; top:130px; left:137px;}
+.send img {width:100%;}
+#sendp div {width:41px; height:2px; background:#4c4c4c; position:absolute; top: 172px; left:151px;}
+.sendex {font-size:12px; line-height:16px; font-weight:500; color:#000; text-align:center; position:absolute; bottom:20px; left:69px;}
+
+#receivep {position: relative; width:343px; height: 262px; margin:0 auto 20px; background:#d9d9d9; border-radius:12px; cursor: pointer;}
+#receivep .receive {width:90px; height:90px; position:absolute; top:20px; left:127px;}
+#receivep .rd {color:#000; font-size:17px; line-height:22px; width:70px; height:22px; position:absolute; top:130px; left:137px; text-align: center;}
+#receivep div {width:41px; height:2px; background:#4c4c4c; position:absolute; top: 172px; left:151px;}
+.recievex {font-size:12px; line-height:16px; font-weight:500; color:#000; text-align:center; position:absolute; bottom:20px; left:69px;}
+
+#selbtn {width:393px; height:47px; margin:30px auto; text-align: center;}
+button {position:relative; width:343px; height:47px; background: rgba(0, 125, 239, 0.4); border-radius:12px; border:none; color:#fff; cursor: pointer;}

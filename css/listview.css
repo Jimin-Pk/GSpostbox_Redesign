@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+body::-webkit-scrollbar {display:none;}
+/*body {background: #c4c4c4;}*/
+a {text-decoration:none;}
+
+#booking {position:fixed; width:100%; height:114px; top:0; z-index: 9999; background: #fff; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:69px; height:22px; margin: 0 auto; padding-top:27px;}
+
+#navbar {width:100%; height: 60px; position:fixed; bottom:0; left:0; right:0; z-index: 9999; background: #fff;}
+.navmenu {width:98%; display:flex; margin:0 auto;}
+.navmenu .home, .my, .reservation, .list, .extra {width:20%; text-align:center; padding-top:10px;}
+.navmenu li img {width:21px; height:21px;}
+.navmenu li .l {font-size: 11px; line-height:13px; color:#007DEF; font-weight:500; }
+.navmenu li .h, .m, .r, .e {font-size:11px; line-height:13px; color:#c4c4c4; font-weight:500;}
+
+#member {width:393px; height:40px; margin:30px auto 20px;}
+#select {position: relative; width:343px; height:40px; background:rgba(196, 196, 196, 0.25); margin:144px auto 0; border-radius:20px;}
+#select .membersel {width:172px; height: 40px; color:white; background:#007DEF; border-radius: 20px; text-align: center; font-size:15px; line-height:40px; font-weight:600; position:absolute; left:0;} 
+#select .nonmember {width:172px; height:40px; color:#4c4c4c;text-align: center; font-size:15px; line-height:40px; font-weight:500; position:absolute; right:-1px;}
+
+#number {width:393px; height:36px; margin:0 auto 30px;}
+#numsearch {position:relative; margin:0 auto 30px; width: 343px; height:36px;}
+.order {width:343px; height:36px; font-size:13px; line-height:36px; border:1px solid #007DEF; border-radius:18px; position:absolute; color: #4c4c4c; padding-left: 15px;}
+#numsearch .numimg {width:24px; height:24px; position:absolute; top:6px; right:15px;}
+
+#total {width:393px; height:32px; margin: 0 auto;}
+#halfnumber {width:343px; height:32px; position: relative; margin:0 auto; border-bottom:2px solid #000;}
+.sum {font-size:21px; line-height:26px; color:#007DEF;}
+select {-webkit-appearance:none; appearance:none; width:71px; height:20px; background:url(../mobileimg/selectbox.png) no-repeat; border:none; background-size:71px 20px; font-size:15px; line-height:20px; font-weight:500; position:absolute; right:0; top:0;} 
+
+#listbox {width:100%; height: 550px; margin:0 auto; background: #F4F6F8;}
+#booknumber {width:343px; height:130px; margin:0 auto; position: relative; background-color: #fff; border-radius: 10px; top:30px; box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);}
+.number {position:absolute; left:15px; top:15px; font-size:12px; font-weight:600; line-height:16px; color: rgba(76, 76, 76, 0.6);}
+.number span {color:#ffb200;} 
+.date {position:absolute; right:15px; top: 15px; font-size:12px; font-weight:600; line-height:16px; color: rgba(76, 76, 76, 0.6); }
+.half {position:absolute; left:15px; top:54px; background:none; border:1.5px solid #007DEF; text-align:center; font-size:10px; font-weight:600; line-height:13px; padding-top:3px; width:50px; height:23px; border-radius: 15px; color:#007DEF;}
+.birth {position:absolute; left:80px; top: 54px; font-size:17px; font-weight:600; line-height:22px; color: #000;} 
+.complete {position:absolute; right:15px; top:54px; font-size:15px; font-weight:600; line-height:23px; color:#007DEF;}
+.name {position:absolute; left: 15px; bottom:15px; font-size:12px; line-height:16px; font-weight:500; color: rgba(76, 76, 76, 0.6);}
+.wait {position:absolute; right:15px; bottom:15px; font-size:12px; line-height:16px; font-weight:500; color: rgba(76, 76, 76, 0.6);}

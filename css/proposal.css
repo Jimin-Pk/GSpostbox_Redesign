@@ -1,0 +1,9 @@
+body {background-color: #fbfbfb;}
+#prbg {width:100%; height:15736px;}
+
+#propbg {width:1920px; height:15736px;}
+#propbg img {width: 1920px; height: 15736px;}
+
+#pb {width:366px; height:80px; position:relative; bottom:130px; left:100px;}
+#pb a {display:block; width:366px; height:80px;}
+#pb a img {width:100%; height:80px;}

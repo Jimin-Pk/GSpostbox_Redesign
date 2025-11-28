@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+body::-webkit-scrollbar {display:none;}
+/*body {background: #c4c4c4;}*/
+a {text-decoration:none; font-family: "NanumSquare Neo";}
+
+#halfcost {position:fixed; width:100%; height:114px; top:0; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); background:#fff; z-index: 9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:101px; height:22px; margin: 0 auto;}
+#top img {width:22px; height:22px;}
+#top .left {position:relative; left:25px; top:26px;}
+
+#senre {width:393px; height:52px; margin: 144px auto 0;}
+#sr {width:343px; height:52px; margin:0 auto;}
+#sr h2 {width:281px; height:52px; font-size:21px; line-height:26px; font-weight:700;}
+#sr span {color:#FFB200;}
+
+#send{width:393px; height: 227px; margin:50px auto 40px;}
+#sendbox {width:343px; height:227px; margin:0 auto;} 
+#sendbox .se {width:69px; height:22px; font-size:17px; line-height:22px; font-weight:700; color:#000;} 
+#sendbox #change {width:62px; height:22px; background:#007def;border-radius:11px; position: relative; top: -22px; left:276px;}
+#change .sechp {font-size:12px; line-height:22px; font-weight:500; color:#fff; margin-left:14px;}
+#sendbox #change .right {width:16px; height:16px; position:relative; top:-19px; left: 39px;}
+#sendbox #priv {width:343px; height: 185px; border:1px solid #c4c4c4; border-radius:17px;} 
+#sendbox #priv .p1, .p3, .p5 {font-size:12px; line-height:16px; font-weight:500; color:#4c4c4c;}
+#sendbox #priv .p2, .p4, .p6 {font-size:12px; line-height:16px; font-weight:600; color:#000;}
+#sendbox .p1 {width:35px; height:16px; margin-top:20px; margin-left:20px;}
+#sendbox .p2 {width:37px; height:16px; margin-left:115px; margin-top: -16px;}
+#sendbox .p3 {width:46px; height:16px; margin-top:30px; margin-left:20px;}
+#sendbox .p4 {width:110px; height:16px; margin-left:115px; margin-top:-16px;}
+#sendbox .p5 {width:23px; height:16px; margin-top:30px; margin-left:20px;}
+#sendbox .p6 {width:189px; height:51px; margin-left:115px; margin-top:-16px;}
+
+#rep {width:393px; height:341px; margin:0 auto;}
+#rebox {width: 343px; height:341px; margin:0 auto;}
+#rebox #change {width:88px; height:22px; background:#007def;border-radius:11px; position: relative; top: -22px; left:250px;}
+#change .rechp {font-size:12px; line-height:22px; font-weight:500; color:#fff; margin-left:14px;}
+#rebox #change .right {width:16px; height:16px; position:relative; top:-19px; left: 65px;}
+
+.private {position:relative; margin:0 auto; width:343px; margin-bottom:15px;}
+.formcontrol {display:block; width:343px; height:40px; border:1px solid #007DEF; border-radius:12px; padding-left:20px; padding-right:60px; margin-top:10px; color:#4c4c4c; font-size:13px; line-height: 40px; text-overflow:ellipsis; white-space:nowrap;}
+.private label {font-size:15px; line-height:20px; font-weight: 700;}
+
+#payment {width:393px; height:107px; margin:30px auto;}
+#pay {width:343px; height:107px; margin: 0 auto;}
+#pm {width:106px; height:22px; margin-bottom: 15px;}
+#pm h4 {font-size:17px; line-height:22px; font-weight:700;}
+#paysel {width:323px; height:42px; margin:0 auto;}
+.first {width:150px; height:42px; border: 1px solid #007DEF; border-radius:12px; text-align: center;}
+.first .f {width:150px; height:40px; font-size:17px; line-height:43px; font-weight:600; color:#007DEF;}
+.last {width:150px; height: 42px; border:1px solid #c4c4c4; border-radius:12px; text-align: center; position:relative; 
+top:-42px; left:173px;} 
+.last .l {width:150px; height:40px; font-size:17px; line-height:43px; font-weight:600; color:#d9d9d9;}
+
+#graycaution {width:343px; height:13px; margin:15px auto 0;}
+.gr {width:13px; height:13px;}
+#graycaution .graycu {font-size:10px; line-height:13px; color: #c4c4c4; position: relative; top:-17px; left:18px;}
+
+#selbtn {width:393px; height:47px; margin:0 auto 30px; text-align:center;}
+button {width:343px; height:47px; background:#007def; opacity:0.4;  color:#fff; font-size:13px; line-height:47px; font-weight:600; text-align:center; border:none; border-radius:12px; cursor: pointer;}  

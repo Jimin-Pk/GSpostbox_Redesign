@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+/*body {background: #c4c4c4;}*/
+body::-webkit-scrollbar {display:none;}
+a {text-decoration:none; font-family: "NanumSquare Neo";}
+
+#complete {position:fixed; width:100%; height:114px; top:0; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); background: #fff; z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:101px; height:22px; margin:0 auto; padding-top:27px;}
+
+#notice {width:100%; height:414px; margin:114px auto 0; background:rgba(167, 230, 255, 0.2);}
+#noticebox {width:393px; height:414px; margin:0 auto; text-align:center; padding-top:10px;} 
+#noticebox h2 {font-size:21px; line-height:26px; font-weight:700; margin: 30px auto 20px;}
+#noticebox .number {width:316px; height:50px; border-radius:25px; background: #fff; font-size:17px; line-height:50px; font-weight:600; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); margin:20px auto 30px;}
+#noticebox span.orange {color:#FFB200;}
+#noticebox h3 {font-size:15px; line-height:20px; font-weight:500;}
+#noticebox span.blue {color: #007DEF; font-weight:700;}
+.noticepic {width:343px; height:112px; margin:30px auto;}
+.noticepic img {width:100%;}
+
+#svc {width: 393px; height:89px; margin:10px auto;}
+.findsvc {width:343px; margin:0 auto;} 
+.find .near {width:343px; border: 1px solid #007DEF; border-radius:9px; text-align:center; font-size:15px; line-height:52px; font-weight:600; color:#007DEF;}
+.find .locate {width:20px; height:20px; position: relative; left:79px; top:40px;}
+
+#anticost {width:343px; height:13px; margin:15px auto;}
+#anticost .cost {display: flex; justify-content:flex-end;}
+.cost li {font-size:10px; line-height:13px; font-weight:500; color:#c4c4c4; margin-right:3px;}
+.cost .right {width:13px; height:13px;}
+
+#btn {width:393px; height:52px; text-align:center; margin:50px auto;}
+#selbtn {width:323px; height:52px; margin:0 auto;}
+#selbtn .btns {display:flex;} 
+.btns .btn1 {position:relative; width:155px; height:52px; background: #007DEF; border-radius:12px; border:none; color:#fff; cursor: pointer; font-size:12px; font-weight:600; line-height:52px; margin-right:13px;} 
+.btns .btn2 {position:relative; width:155px; height:52px; background: #A7E6FF; border-radius:12px; border:none; color: #007DEF; cursor: pointer; font-size:12px; font-weight:600; line-height:52px;} 

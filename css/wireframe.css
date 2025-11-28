@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('../NanumSquareNeo.woff2') format('woff2');
+}
+
+a {text-decoration:none;}.navmenu {width:98%; display:flex; margin:0 auto;}
+body {height:5910px; font-family:'NanumSquareNeo';}
+
+/* img {width:1525px; height:auto;} mac*/
+img {width:1920px; height:auto;} /*desktop*/
+
+#buttons {position:relative; left:50%; transform: translateX(-48%); bottom:110px; text-align:center; background-color: #007def; border-radius:12px; width:250px; height:60px;}
+.btn {line-height:60px; color: #fff; text-decoration:none; font-size:24px; font-weight:500;}

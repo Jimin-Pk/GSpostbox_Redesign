@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+body::-webkit-scrollbar {display:none;}
+/*body {background: #c4c4c4;}*/
+a {text-decoration:none; font-family: "NanumSquare Neo";}
+
+#booking {position:fixed; width:100%; height:114px; top:0; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); background: #fff; z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:101px; height:22px; margin:0 auto; padding-top:27px;}
+
+#navbar {width:100%; height: 60px; position:fixed; bottom:0; left:0; right:0; z-index: 9999; background: #fff;}
+.navmenu {width:98%; display:flex; margin:0 auto;}
+.navmenu .home, .my, .reservation, .list, .extra {width:20%; text-align:center; padding-top:10px;}
+.navmenu li img {width:21px; height:21px;}
+.navmenu li .r {font-size: 11px; line-height:13px; color:#007DEF; font-weight:500; }
+.navmenu li .h, .m, .l, .e {font-size:11px; line-height:13px; color:#c4c4c4; font-weight:500;}
+
+#select {width: 393px; height:324px; margin:144px auto 160px auto;}
+#selectlist {position: relative; width:343px; height:324px; margin:0 auto;}
+#selectlist li {width:343px; height:98px; margin-bottom:15px; border-radius:12px;}
+#selectlist .bookbox:last-child {margin-bottom:0;}
+#selectlist li .slimg, .slimg1, .slimg2 {width:58px; height:58px;}
+.selbox {background:none; border:1px solid #c4c4c4; cursor: pointer;}
+.selbox .gsdel {font-size:17px; line-height:22px; font-weight:700; color:#000; position:absolute; top:20px; left:98px;} 
+.selbox .ex {font-size:11px; line-height:16px; color:#000; position:absolute; top:62px; left:98px;}
+.selbox .slimg {position:absolute; top:20px; left:20px;}
+
+.bookbox {background:none; border:1px solid #c4c4c4; cursor: pointer;} 
+.bookbox .gsdel1 {font-size:17px; line-height:22px; font-weight:700; color:#000; position:absolute; top:133px; left:98px;}
+.bookbox .ex1 {font-size:11px; line-height:16px; color:#000; position:absolute; top:175px; left:98px;}
+.bookbox .slimg1 {position:absolute; top:133px; left:20px;}
+
+.bookbox2 {background:none; border:1px solid #c4c4c4; cursor: pointer;}
+.bookbox2 .gsdel2 {font-size:17px; line-height:22px; font-weight:700; color:#000; position:absolute; top:246px; left:98px;}
+.bookbox2 .ex2 {font-size:11px; line-height:16px; color:#000; position:absolute; top:288px; left:98px;}
+.bookbox2 .slimg2 {position: absolute; top:246px; left:20px;}
+
+#selbtn {width:393px; height:47px; margin:0 auto 30px; text-align:center;}
+button {position:relative;width:343px; height:47px; background: #007DEF; opacity:0.4; border-radius:12px; border:none; color:#fff; cursor: pointer;}

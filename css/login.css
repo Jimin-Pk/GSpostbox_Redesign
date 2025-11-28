@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+a {text-decoration:none;}
+body::-webkit-scrollbar {display:none;}
+
+#logo {width: 147px; height:104px; margin:149px auto 0;}
+#logo img {width:100%;}
+
+#start {width:393px; margin:0 auto;}
+#login {width:343px; margin:20px auto 0;}
+.formcontrol {display:block; width:343px; height:47px; border:1.5px solid #007DEF; border-radius:12px; padding-left:20px; padding-right:60px; margin-top:10px; color:#4c4c4c; font-size:13px; line-height: 47px; text-overflow:ellipsis; white-space:nowrap;}
+
+#check {width:343px; margin:20px auto 0;}
+.checkbox {display: inline-block; margin-right:15px;}
+#chk1, #chk2 {margin-right:5px;}
+label {font-size:13px; line-height:17px; font-weight:500;}
+.checkbox input[type="checkbox"] {display:none;}
+.chkbox1, .chkbox2 {display:flex; align-items:center;}
+.chkicon::before {content:""; display:block; margin-right:5px; display:inline-block; width:17px; height:17px; background:transparent; border:1px solid #c4c4c4; border-radius:4px; box-sizing: border-box; cursor: pointer; position: relative; top:2px; margin-right:10px;}
+.chkbox1 input:checked + .chkicon::before {background: url(../mobileimg/check.png) #007DEF no-repeat center; background-size:9px 7px; border:none;}
+.chkbox2 input:checked + .chkicon::before {background: url(../mobileimg/check.png) #007DEF no-repeat center; background-size:9px 7px; border:none;}
+
+#log {width:393px; text-align: center; margin:0 auto;}
+#logbtn {width:343px; height:47px; border:none; border-radius: 12px; background:#007DEF; color:#fff; font-size:13px; font-weight:47px; font-weight:600; margin:15px auto 30px;}
+#logbtn:hover { cursor: pointer;}
+.nomembtn {width:343px; height:47px; border:none; border-radius: 12px; background:#00D4EA; color:#fff; font-size:13px; line-height: 47px; font-weight:600; margin-bottom:10px;}
+.nomembtn:hover {cursor: pointer;}
+
+#find {width:373px; height:21px; margin:0 auto 30px; padding-left:25px;}
+#find ul li {display:inline; float:left; color: #7e7e7e; margin-right:20px;}
+li:first-child {padding-left:15px;}
+li:nth-child(2) {margin-top:2px;}
+li:nth-child(4) {margin-top:2px;}
+li:last-child {margin-right:0; padding-right:25px;}
+#find ul li a {font-size:13px; line-height:21px; color: #7e7e7e;}
+a:hover {text-decoration: underline;}
+
+#nomem {width:393px; margin:0 auto; text-align:center;}
+
+
+

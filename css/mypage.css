@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+/*body {background: #c4c4c4;}*/
+body::-webkit-scrollbar {display:none;}
+a {text-decoration:none;}
+
+#mypage {position:fixed; width:100%; height:114px; top:0; z-index: 9999; background: #fff; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:81px; height:22px; margin: 0 auto; padding-top:27px;}
+
+#navbar {width:100%; height: 60px; position:fixed; bottom:0; left:0; right:0; z-index: 9999; background: #fff;}
+.navmenu {width:98%; display:flex; margin:0 auto;}
+.navmenu .home, .my, .reservation, .list, .extra {width:20%; text-align:center; padding-top:10px;}
+.navmenu li img {width:21px; height:21px;}
+.navmenu li .m {font-size: 11px; line-height:13px; color:#007DEF; font-weight:500; }
+.navmenu li .h, .r, .l, .e {font-size:11px; line-height:13px; color:#c4c4c4; font-weight:500;}
+
+#myinfo {width:100%; height:280px; margin: 114px auto 0; background:rgba(196, 196, 196, 0.15);}
+#mybox {width:393px; height:280px; position:relative; margin:0 auto;}
+.present {position:absolute; top:40px; left:25px; font-size:17px; line-height:22px; font-weight:700;}
+.classic {font-size:21px; line-height:36px; color:#ff7d88; font-weight:800;} 
+.primeclub {position:absolute; right:25px; top:40px; width:64px; height:21px; background-color:#000457; color:#F8F47E; border-radius:11px; font-size:10px; font-weight: 600; line-height:21px; text-align:center;} 
+.next {position:absolute; top: 114px; left:25px; font-size:10px; line-height:21px; font-weight:600; background-color:rgba(196, 196, 196, 0.5); width: 199px; height:21px; border-radius:11px; text-align:center;}
+.best {color:#FFB200;}
+
+#morebtn {position:absolute; right:25px; top:118px; width:64px; height:13px;}
+.more {position:absolute; width:50px; height:13px; margin-right:2px; line-height:13px; font-size:10px; color:#7A7A7A; text-align:right;}
+#morebtn img {position:absolute; right:0; width:13px; height:13px;}
+
+.coupon {background-color:#fff; width:104px; height:80px; border-radius:9px; position:absolute; left:25px; top: 160px; box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);}
+.cp {font-size:11px; line-height:13px; font-weight:600; position: relative; top:9px; left:9px; color:#7A7A7A;}
+.cn {font-size:22px; line-height:26px; font-weight:900; position:absolute; bottom:9px; left:9px; color:#000;}
+
+.book {background-color:#fff; box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); width:104px; height:80px; border-radius:9px; position:absolute; left:145px; top:160px;}
+.bk {font-size:11px; line-height:13px; font-weight:600; position: relative; top:9px; left:9px; color:#7A7A7A;}
+.bn {font-size:22px; line-height:26px; font-weight:900; position:absolute; bottom:9px; left:9px; color:#000;}
+
+.deli {background-color:#fff; box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); width:104px; height:80px; border-radius:9px; position:absolute; right:25px; top: 160px;}
+.dl {font-size:11px; line-height:13px; font-weight:600; position: relative; top:9px; left:9px; color:#7A7A7A;}
+.dn {font-size:22px; line-height:26px; font-weight:900; position:absolute; bottom:9px; left:9px; color:#000;}
+
+#mypagemenu {width:393px; height: 152px; margin:30px auto 40px;}
+#menu {width:343px; height:152px; margin:0 auto;}
+#menulist {width:343px; height:152px; border-radius:9px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); position:relative; margin:0 auto;}
+#menulist img {position:absolute; right:34px; width:17px; height:17px;}
+.listimg1 {position:absolute; top:17px}
+.listimg2 {position: absolute; top:68px;}
+.listimg3 {position: absolute; bottom:17px;}
+.list1 {width:301px; height:50px; margin:0 21px; border-bottom:1px solid #d9d9d9;}
+.list1:last-child {border-bottom:none;}
+.list1 p {position:absolute; left:34px;}
+.p1 {font-size:13px; line-height:17px; color: #000; position:absolute; top:17px;}
+.p2 {font-size:13px; line-height:17px; color: #000; position:absolute; top:68px;}
+.p3 {font-size:13px; line-height:17px; color: #000; position:absolute; bottom:17px;}
+
+#convertmember {width:393px; height:147px; margin:0 auto;}
+.membership {position:relative; width:343px; height:26px; margin:0 auto; }
+.membership h1{font-size:21px; line-height:26px; font-weight:700; color:#000;}
+#convert {width:343px; height:101px; border-radius:9px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); position:relative; margin:0 auto;}
+.membership {font-size:21px; line-height:26px; font-weight:700; margin-bottom:20px; padding-left:10px;}
+#mypagemenu {width:100%; height: 152px; margin:30px auto 40px}
+.member {width:301px; height:50px; margin:0 21px; border-bottom:1px solid #d9d9d9;}
+.member:last-child {border-bottom:none;}
+.member img {position: absolute; right:34px; width:17px; height:17px;}
+.listimg4 {position: absolute; top:17px;}
+.listimg5 {position:absolute; bottom:17px;}
+.member p {position:absolute; left:34px;}
+.p4 {font-size:13px; line-height:17px; color: #000; position:absolute; top:17px;}
+.p5 {font-size:13px; line-height:17px; color: #000; position:absolute; bottom:17px;} 
+
+#add {width:343px; height:130px; margin:40px auto 50px;}
+#add1 {position:relative; width:343px; height:130px; margin:0 auto; border-radius:12px; box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);}
+.promotion {width:343px; height:130px; border-radius:12px;}
+
+#logout {width:100%; height:21px; margin: 0 auto 100px;}
+#logoutbtn {position: relative; width:312px; height:21px; margin: 0 auto; text-align: center;}
+#logoutbtn p {color: #7e7e7e;}
+#logoutbtn p:hover {text-decoration:underline;}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+/*body {background: #c4c4c4;}*/
+body::-webkit-scrollbar {display:none;}
+a {text-decoration:none;}
+
+#postservice {position:fixed; width:100%; height:114px; top:0; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); background:#fff; z-index: 9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:102px; height:22px; margin: 0 auto;}
+#top img {width:22px; height:22px;}
+#top .left {position:relative; left:25px; top:26px;}
+
+
+#select {width:100%; height:314px; margin:144px auto 160px auto;}
+#wrap {width:393px; margin:144px auto 0;}
+.selbox {width:343px; margin:0 auto; border:1px solid #c4c4c4; border-radius:12px; margin-bottom: 10px;}
+.selbox img {width:46px; height:46px; position:relative; left:30px; top:20px;}
+.selbox h2 {font-size:15px; line-height:20px; font-weight:700; color:#000; position:relative; left: 106px; top:-30px;}
+.selbox h3 {font-size:12px; line-height:16px; font-weight:500; color:#4c4c4c; position:relative;left:106px; top:-20px;}

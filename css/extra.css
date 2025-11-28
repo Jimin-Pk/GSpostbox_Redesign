@@ -1,0 +1,51 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+
+* {box-sizing:border-box;}
+/*body {background: #c4c4c4;}*/
+body::-webkit-scrollbar {display:none;}
+a {text-decoration:none;}
+
+#booking {position:fixed; width:100%; height:114px; top:0; z-index: 9999; background: #fff; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:49px; height:22px; margin: 0 auto; padding-top:27px;}
+
+#navbar {width:100%; height: 60px; position:fixed; bottom:0; left:0; right:0; z-index: 9999; background: #fff;}
+.navmenu {width:98%; display:flex; margin:0 auto;}
+.navmenu .home, .my, .reservation, .list, .extra {width:20%; text-align:center; padding-top:10px;}
+.navmenu li img {width:21px; height:21px;}
+.navmenu li .e {font-size: 11px; line-height:13px; color:#007DEF; font-weight:500; }
+.navmenu li .h, .m, .r, .l {font-size:11px; line-height:13px; color:#c4c4c4; font-weight:500;}
+
+#extrabox {width:393px; height:300px; margin:144px auto 0;}
+#box {width:343px; height:300px; margin:0 auto; position: relative;}
+.extralist img {width:20px; height:20px;}
+.extralist li {width:343px; height:60px; margin-bottom:15px; border-bottom:1px solid #c4c4c4;}
+.extralist h2 {font-size:15px; line-height:20px; font-weight:600; width:117px; height:20px; text-align:left; position:absolute; left:70px;}
+.extralist li:last-child {margin-bottom:0;}
+
+.noticeicon {position:absolute; top:20px; left:20px; width:20px; height:20px;} 
+.noticetext {position:absolute; top:20px; left:75px;}
+.noticenext {position:absolute; top:20px; right:15px;}
+
+.eventicon {position:absolute; top:95px; left:20px; width:20px; height:20px;}
+.eventtext {position:absolute; top:95px; left:75px;}
+.eventnext {position:absolute; top:95px; right:15px;}
+
+.posticon {position:absolute; top:170px; left:20px; width:20px; height:20px;}
+.posttext {position:absolute; top:170px; left:75px;}
+.postnext {position:absolute; top:170px; right:15px;}
+
+.csicon {position:absolute; top:245px; left:20px; width:20px; height:20px;}
+.cstext {position:absolute; top:245px; left:75px;}
+.csnext {position:absolute; top:245px; right:15px;}
+
+
+
+
+

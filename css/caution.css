@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+body::-webkit-scrollbar {display:none;}
+/*body {background: #c4c4c4;}*/
+a {text-decoration:none; font-family: "NanumSquare Neo";}
+
+#cloth {position:fixed; width:100%; height:114px; top:0; box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); background: #fff; z-index:9999;}
+#top {width:100%; height:60px; margin:54px auto 0;}
+#top h1 {font-size: 17px; line-height:22px; font-weight:700; width:33px; height:22px; margin:0 auto; padding-top:27px;}
+
+#picszone {width:100%; height:336px; margin:114px auto 0; background:rgba(167, 230, 255, 0.3);}
+#picsbox {width:343px; height:306px; margin:0 auto;}
+#picsbox img {width:100px; height:100px;}
+#picsbox p {font-size: 12px; line-height:16px; color:#4c4c4c;}
+#picsbox div {width:123px; height:126px; text-align: center;}
+#picszone #picsbox .paper {position:absolute; margin-left:10px; margin-top:30px;}
+#picszone #picsbox .unite {position:absolute; margin-left:193px; margin-top:30px;}
+#picszone #picsbox .carrier {position:absolute; margin-left:10px; margin-top:180px;}
+#picszone #picsbox .plastic {position:absolute; margin-left:193px; margin-top:180px;}
+
+#cautiontext {width:343px; height:32px; margin:20px auto 40px;}
+#cautiontext .ctimg {width:16px; height:16px;}
+#cautiontext img {width:100%;}
+#cautiontext #ctb {position: relative; left:21px; top:-21px;}
+.ct {width:343px; height:32px; font-size:12px; line-height:16px; color: rgba(255, 178, 0, 0.5);}
+
+#explanation {width:393px; height:223px; margin:0 auto 200px;}
+#explanation #ex {width:343px; height:223px; margin:0 auto;}
+#ex h2 {font-size:12px; line-height:16px; font-weight:600; color:#4c4c4c;}
+#ex .ex1 {font-size:10px; line-height:15px; font-weight:500; color: #c4c4c4; margin-top:10px;}
+#ex .ex2 {font-size:10px; line-height:15px; font-weight:500; color:#4c4c4c;}
+#ex .ex3 {font-size:10px; line-height:15px; font-weight:500; color: #c4c4c4; margin-top:10px;}
+
+#last {width:100%; height: 178px; background:#fff; position:fixed; bottom:0; left:0; box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);}
+#check {width:343px; height:178px; margin:0 auto;} 
+#check h3 {width:343px; font-size:12px; line-height:16px; color:#000; margin:30px auto 35px; text-align:center;}
+#check button {width:343px; height:47px; background:#007def; color:#fff; font-size:13px; line-height:47px; font-weight:600; text-align:center; border:none; border-radius:12px; cursor: pointer;}

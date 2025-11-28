@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url('/fonts/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-style: normal;
+}
+body {font-family:'NanumSquareNeo', sans-serif;}
+* {box-sizing:border-box;}
+a {text-decoration:none;}
+body::-webkit-scrollbar {display:none;}
+
+#splash {width: 393px;} 
+#logo {width:373px; margin:0 auto;}
+img {width: 147px; height:104px; position:absolute; margin:325px 113px;}
+#logo h1 {width: 172px; height:22px; color:#d6d6d6; font-size:17px; line-height:22px; font-weight:400; position:absolute; top:644px; left: 110px; text-align:center;}
